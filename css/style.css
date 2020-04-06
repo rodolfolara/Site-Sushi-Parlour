@@ -428,3 +428,54 @@ body {
 .img-bg10 img {
   padding-right: 23px;
 }
+/* === FOOTER === */
+
+.footer {
+  display: flex;
+  color: #fff;
+  background: #373a33;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-bg11 {
+  width: 550px;
+  padding-right: 200px;
+}
+
+.content-bg11 h1 {
+  font-size: 1.5625em;
+  line-height: 2.06em;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+  padding-top: 68px;
+  text-align: center;
+}
+
+.content-bg11 p {
+  font-size: 15px;
+  line-height: 29px;
+  padding-bottom: 105px;
+}
+
+.footer ul {
+  padding-right: 100px;
+}
+.footer ul li {
+  padding-bottom: 10px;
+}
+
+.footer ul li:first-child {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 55px;
+}
